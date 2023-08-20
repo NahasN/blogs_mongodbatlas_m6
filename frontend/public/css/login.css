@@ -1,0 +1,160 @@
+.navbar {
+    background-color: #18dbc1;
+    padding: 2%;
+
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.brand-fname {
+    background-color: #000000;
+    color: #fff;
+}
+
+.nav-item {
+    margin: 0 50px;
+    padding: 0 5px;
+}
+
+
+
+
+ .main {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  .links {
+    margin-top: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  .links .separator {
+    margin: 0 5px;
+  }
+  
+
+  
+.home-btn {
+  width: 80px;
+  height: 45px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: rgb(0, 0, 0);
+  background: #ad5389;
+  background: linear-gradient(0deg,
+          rgba(20, 167, 62, 1) 0%,
+          rgba(102, 247, 113, 1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #6ea97f98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.home-btn:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14d648b7;
+}
+
+ 
+#footer {
+    padding: 2%;
+    margin-top: 10%;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+#footer a:hover{
+  color: #18dbc1;
+}
+
+#footer p {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+
+.footer-icons {
+    margin: 40px 20px;
+}
+
+@media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  

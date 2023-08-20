@@ -1,0 +1,181 @@
+h1 {
+    margin: 5% 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+h2 {
+    margin: 3% 0;
+    font-family: "Oswald";
+    font-size: 2.2rem;
+    line-height: 1.5;
+    text-align: center;
+
+}
+
+h5 {
+    font-size: 1.4rem;
+    margin-top: 5%;
+}
+
+p {
+    margin-top: 5%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #18dbc1;
+    padding: 2%;
+
+}
+
+.navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.brand-fname {
+    background-color: #000000;
+    color: #fff;
+}
+
+.nav-item {
+    margin: 0 75px;
+    padding: 0 5px;
+
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+
+}
+
+
+.nav-link:hover {
+    color: #000000fb;
+}
+
+/* Content Section */
+
+#contents {
+
+    padding: 2% 5%;
+    margin: 4% 0;
+    background-color: #ffffff;
+
+}
+
+.content-list {
+    margin: 5% 0;
+}
+
+.content-list li {
+    font-size: 1.3rem;
+    margin-top: 3%;
+}
+
+.tech-name {
+    text-decoration: none;
+    color: #082cc9;
+}
+
+.tech-img {
+    width: 70%;
+}
+
+.title-img {
+    width: 60%;
+}
+
+/* Back to Top btn */
+.up {
+    flex: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+
+}
+
+.back-btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(134, 241, 4);
+}
+
+.back-btn:hover {
+    background-color: rgb(35, 237, 59);
+    color: #000000;
+}
+
+
+.login-btn {
+    width: 80px;
+    height: 45px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: rgb(0, 0, 0);
+    background: #ad5389;
+    background: linear-gradient(0deg,
+            rgba(20, 167, 62, 1) 0%,
+            rgba(102, 247, 113, 1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #6ea97f98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.login-btn:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14d648b7;
+}
+
+
+
+/* Footer  */
+
+#footer {
+
+    padding: 2%;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer p {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.footer-icons {
+    margin: 40px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #18dbc1;
+}
